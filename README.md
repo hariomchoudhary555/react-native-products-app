@@ -1,13 +1,20 @@
-# Products App - React Native E-Commerce Application
+# React Native Products App
 
 A fully functional React Native mobile application featuring product browsing, detailed views, and cart management. Built with modern React Native practices and state management.
 
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 ## 🚀 Live Demo
+
 - Download Expo Go app on your phone
-- Scan QR code after running the app
+- Run `npx expo start` in the project directory
+- Scan QR code with Expo Go app
 - Test all features live
 
 ## 📱 Screenshots
+
 ![Product List](./screenshots/product-list.jpg)
 ![Product Details](./screenshots/product-details.jpg)
 ![Cart Management](./screenshots/cart.jpg)
@@ -15,6 +22,7 @@ A fully functional React Native mobile application featuring product browsing, d
 ## ✨ Features
 
 ### Core Functionality
+
 - **Product Catalog**: Grid-based product listing with 30+ items
 - **Product Details**: Comprehensive product information display
 - **Shopping Cart**: Add/remove items with persistent state
@@ -24,14 +32,15 @@ A fully functional React Native mobile application featuring product browsing, d
 - **Data Caching**: Optimized API calls with React Query
 
 ### Technical Highlights
-- ✅ React Native with Expo SDK 54
-- ✅ React Navigation v6 for seamless navigation
-- ✅ Zustand for lightweight state management
-- ✅ React Query for server state & caching
-- ✅ RESTful API integration
-- ✅ Responsive UI design
-- ✅ Error handling & loading states
-- ✅ Clean component architecture
+
+✅ React Native with Expo SDK 54  
+✅ React Navigation v6 for seamless navigation  
+✅ Zustand for lightweight state management  
+✅ React Query for server state & caching  
+✅ RESTful API integration  
+✅ Responsive UI design  
+✅ Error handling & loading states  
+✅ Clean component architecture  
 
 ## 🛠️ Tech Stack
 
@@ -45,8 +54,8 @@ A fully functional React Native mobile application featuring product browsing, d
 ## 📦 Installation & Setup
 ```bash
 # Clone the repository
-git clone [your-repo-url]
-cd ProductsApp
+git clone https://github.com/hariomchoudhary555/react-native-products-app.git
+cd react-native-products-app
 
 # Install dependencies
 npm install
@@ -119,24 +128,24 @@ ProductsApp/
 
 ## 🧪 Testing the App
 
-1. **Product List**
-   - Verify all products load
-   - Check grid layout responsiveness
-   - Test scroll performance
+### Product List
+- Verify all products load
+- Check grid layout responsiveness
+- Test scroll performance
 
-2. **Navigation**
-   - Tap any product → Should navigate to details
-   - Back button → Should return to list
+### Navigation
+- Tap any product → Should navigate to details
+- Back button → Should return to list
 
-3. **Cart Management**
-   - Add items → Cart count increases
-   - Remove items → Cart count decreases
-   - State persists across navigation
+### Cart Management
+- Add items → Cart count increases
+- Remove items → Cart count decreases
+- State persists across navigation
 
-4. **API Integration**
-   - Products load from API
-   - Loading states display properly
-   - Error handling works on network failure
+### API Integration
+- Products load from API
+- Loading states display properly
+- Error handling works on network failure
 
 ## 🔄 Future Enhancements
 
@@ -148,19 +157,6 @@ ProductsApp/
 - Product reviews
 - Dark mode support
 
-## 👨‍💻 Developer
-
-**Hariom**
-- Email: [your-email@example.com]
-- GitHub: [your-github-username]
-- LinkedIn: [your-linkedin-profile]
-
 ## 📄 License
 
 This project is open source and available under the MIT License.
-
-## 🙏 Acknowledgments
-
-- DummyJSON API for product data
-- React Native & Expo communities
-- Built as part of technical assessment for ThinkO
